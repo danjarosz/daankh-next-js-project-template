@@ -6,6 +6,7 @@ Additional features:
 
 - Predefined `.editorconfig`
 - Configured Prettier
+- Configured ESLint
 
 ## Getting Started
 
