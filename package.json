@@ -7,7 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "npx prettier . --write"
+    "format": "npx prettier . --write",
+    "test:e2e": "npx playwright test --config=playwright.e2e.config.ts",
+    "test:e2e:ui": "npx playwright test --config=playwright.e2e.config.ts --ui",
+    "test:acceptance": "npx playwright test --config=playwright.acceptance.config.ts",
+    "test:acceptance:ui": "npx playwright test --config=playwright.acceptance.config.ts --ui"
   },
   "dependencies": {
     "next": "15.3.1",
@@ -16,6 +20,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@playwright/test": "^1.52.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

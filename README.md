@@ -7,6 +7,7 @@ Additional features:
 - Predefined `.editorconfig`
 - Configured Prettier
 - Configured ESLint
+- Configured Playwright for E2E and acceptance tests
 
 ## Getting Started
 
