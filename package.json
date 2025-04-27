@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "format": "npx prettier . --write",
-    "test:unit": "jest",
+    "test": "jest",
     "test:e2e": "npx playwright test --config=playwright.e2e.config.ts",
     "test:e2e:ui": "npx playwright test --config=playwright.e2e.config.ts --ui",
     "test:acceptance": "npx playwright test --config=playwright.acceptance.config.ts",
