@@ -2,7 +2,7 @@
 
 Hello! Welcome to the documentation for my Next.js project template.
 
-Daankh Next.js Project Template extends the Next.js project build on Create Next App with typical features, that are required to write clean and reliable web applications:
+**Daankh Next.js Project Template** extends the Next.js project build on Create Next App with typical features, that are required to write clean and reliable web applications:
 
 Code styling:
 
@@ -15,9 +15,8 @@ Linting:
 
 Testing:
 
-- Jest
-- React Testing Library
-- Playwright
+- Jest + React Testing Library (Unit and Integration Tests)
+- Playwright (E2E and Acceptance Tests)
 
 Documenting:
 
