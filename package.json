@@ -4,8 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:docker": "docker compose -f docker-compose.dev.yml up --build",
+    "dev:docker:stop": "docker compose -f docker-compose.dev.yml down",
     "build": "next build",
+    "build:docker": "docker build -t nextjs-docker-node-20 .",
     "start": "next start",
+    "start:docker": "docker run -p 3000:3000 nextjs-docker-node-20",
     "lint": "next lint",
     "format": "npx prettier . --write",
     "test": "jest",
