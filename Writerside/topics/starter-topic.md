@@ -2,29 +2,34 @@
 
 Hello! Welcome to the documentation for my Next.js project template.
 
-**Daankh Next.js Project Template** extends the Next.js project build on Create Next App with typical features, that are required to write clean and reliable web applications:
+**Daankh Next.js Project Template** extends the Next.js project build on Create Next App with typical features that are
+required to write clean and reliable web applications:
 
-Code styling:
+**Code styling:**
 
 - Predefined editor config
-- Prettier
+- [Prettier](https://prettier.io)
 
-Linting:
+**Linting:**
 
-- ESLint
+- [ESLint](https://eslint.org)
 
-Testing:
+**Testing:**
 
-- Jest + React Testing Library (Unit and Integration Tests)
-- Playwright (E2E and Acceptance Tests)
+- [Jest](https://jestjs.io) + [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) (
+  Unit and Integration Tests)
+- [Playwright](https://playwright.dev/docs/intro) (E2E and Acceptance Tests)
 
-Documenting:
+**Documenting:**
 
-- Writerside
-- Storybook
+- [Writerside](https://www.jetbrains.com/writerside/)
+- [Storybook](https://storybook.js.org/docs)
 
-GitHub Actions:
-- Running unit tests
-- Running integration tests
-- Running E2E tests
-- Running Acceptance tests
+**Containerizing:**
+
+- [Docker](https://www.docker.com)
+
+**GitHub Actions:**
+
+- Running unit & integration tests
+- Running E2E & Acceptance tests
