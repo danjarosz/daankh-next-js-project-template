@@ -9,6 +9,7 @@ Additional features:
 - Configured ESLint
 - Configured Playwright for E2E and acceptance tests
 - Configured Jest & React Testing Library for unit and integration tests
+- Configured Storybook and WriterSide for creating documentations
 
 ## Getting Started
 
