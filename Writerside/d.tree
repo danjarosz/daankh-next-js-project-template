@@ -11,7 +11,10 @@
       <toc-element topic="Base.md"/>
       <toc-element topic="Code-Styling.md"/>
       <toc-element topic="Linting.md"/>
-      <toc-element topic="Testing.md"/>
+      <toc-element topic="Testing.md">
+        <toc-element topic="Unit-Integration-Tests.md"/>
+        <toc-element topic="E2E-and-Acceptance-tests.md"/>
+      </toc-element>
     </toc-element>
   <toc-element topic="Application.md"/>
 </instance-profile>
