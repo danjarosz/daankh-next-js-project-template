@@ -40,5 +40,5 @@ npm run test:acceptance:ui
 
 ## GitHub Actions
 
-The file `tests_jest.yml` inside the directory `.github/workflows` contains predefined GH Action to automatically run
+The file `tests_playwright.yml` inside the directory `.github/workflows` contains predefined GH Action to automatically run
 the tests on the `main` branch.
