@@ -10,6 +10,7 @@ Additional features:
 - Configured Playwright for E2E and acceptance tests
 - Configured Jest & React Testing Library for unit and integration tests
 - Configured Storybook and WriterSide for creating documentations
+- Configured Docker for Production and Development
 
 ## Getting Started
 
