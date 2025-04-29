@@ -1,5 +1,9 @@
 # E2E and Acceptance tests
 
+**Acceptance tests** should be focused on the behavior of a user, so if he/she is able to do what he/she wanted.
+
+**E2E tests** should cover the cases of displayed UI, so it is acceptable to mock responses.
+
 For implementing both **E2E and acceptance tests**, there is prepared an environment based
 on [Playwright](https://playwright.dev/docs/intro)
 
@@ -54,5 +58,6 @@ before you run ui mode.
 
 ## GitHub Actions
 
-The file `tests_playwright.yml` inside the directory `.github/workflows` contains predefined GH Action to automatically run
+The file `tests_playwright.yml` inside the directory `.github/workflows` contains predefined GH Action to automatically
+run
 the tests on the `main` branch.
