@@ -41,11 +41,13 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 ## Build
 
 Build via Docker
+
 ```bash
 npm run build:docker
 ```
 
 Run the production build via Docker
+
 ```bash
 npm run start:docker
 ```
