@@ -16,4 +16,4 @@ Storybook stories should be located in the directory `/stories`
 ## Modifications
 
 Configuration of the Storybook is located in the directory `/.storybook`, so modify files inside it to change
- the configuration.
+the configuration.
