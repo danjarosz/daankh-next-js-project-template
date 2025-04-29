@@ -38,6 +38,20 @@ npm run test:e2e:ui
 npm run test:acceptance:ui
 ```
 
+Ensure Playwright is installed via:
+
+```bash
+npx playwright install
+```
+
+and the development server is running:
+
+```bash
+npm run dev
+```
+
+before you run ui mode.
+
 ## GitHub Actions
 
 The file `tests_playwright.yml` inside the directory `.github/workflows` contains predefined GH Action to automatically run
