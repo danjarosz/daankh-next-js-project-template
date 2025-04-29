@@ -10,25 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: lts/*
-      - name: Install dependencies
-        run: npm ci
       - name: Create production build
         run: npm run build:docker
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
       - name: Run E2E tests
         run: npm run test:e2e
-      - name: Shutdown server
-        if: always()
-        run: lsof -ti:3000 | xargs -r kill || true
       - name: Run Acceptance tests
         run: npm run test:acceptance
-      - name: Shutdown server
-        if: always()
-        run: lsof -ti:3000 | xargs -r kill || true
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:
