@@ -137,23 +137,8 @@ function InstallPrompt() {
 export default function Page() {
   return (
     <>
-      <head>
-        <link
-          rel="icon"
-          type="image/png"
-          href="/favicon-96x96.png"
-          sizes="96x96"
-        />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
-        />
-      </head>
       <div className={'flex flex-col items-center justify-center'}>
-        <div className={'flex items-center justify-center'}>
+        <div className={'flex items-center justify-center w-100'}>
           <div className={'border-2'}>
             <PushNotificationManager />
           </div>
@@ -163,7 +148,7 @@ export default function Page() {
         </div>
         <div className={'flex flex-col items-center justify-center'}>
           <div className="flex flex-col items-center justify-center w-full lg:w-1/2">
-            <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+            <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start w-100">
               <div
                 style={{
                   width: '100%',
