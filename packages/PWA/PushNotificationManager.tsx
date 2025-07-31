@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { urlBase64ToUint8Array } from '@/app/PWA/utility'
+import { urlBase64ToUint8Array } from '@/packages/PWA/utility'
 import { subscribeUser, unsubscribeUser, sendNotification } from '@/app/actions'
 
 export default function PushNotificationManager() {
