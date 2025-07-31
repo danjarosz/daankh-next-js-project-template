@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { PushNotificationManager, InstallPrompt } from '@/packages/PWA'
+import { PushNotificationManager, InstallPrompt } from '@/packages/pwa'
 
 export default function Page() {
   return (
